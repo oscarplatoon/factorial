@@ -1,2 +1,5 @@
 def factorial(num):
-	# your code here
+	total = 1
+	for num in range(num):
+		total *= (num + 1)
+	return total
