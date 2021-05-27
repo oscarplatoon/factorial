@@ -5,7 +5,7 @@ function factorial(num) {
     if (a===0){
       array.push(a);
       console.log(array);
-      return 0;
+      return 1;
     }
 
     for(var i = a; i > 0; i-- ){
