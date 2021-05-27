@@ -1,5 +1,12 @@
 from factorial import factorial
 
+print(factorial(1) == 1)
+print(factorial(2) == 2)
+print(factorial(3) == 6)
+print(factorial(4) == 24)
+print(factorial(5) == 120)
+print(factorial(6) == 720)
+print(factorial(7) == 5040)
 print(factorial(8) == 40320)
 print(factorial(18) == 6402373705728000)
 print(factorial(45) == 119622220865480194561963161495657715064383733760000000000)
