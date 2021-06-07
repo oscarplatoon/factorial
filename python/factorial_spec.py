@@ -4,7 +4,7 @@ from factorial import factorial
 class FactorialTest(unittest.TestCase):
 
     def test_letter(self):
-        self.assertEqual(factorial('a'),'Number must be an integer greater than or equal to 0.')
+        self.assertEqual(factorial('a'),'Input must be an integer greater than or equal to 0.')
         
     def test_8(self):
         self.assertEqual(factorial(8),40320)
